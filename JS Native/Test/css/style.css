@@ -1,0 +1,26 @@
+.wrapper {
+	width: 500px;
+	height: 500px;
+	position: relative;
+	border: 5px solid red;
+}
+.box{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	background-color: blue;
+}
+
+.wrapper_btn{
+	margin-top: 10px;
+	background-color: rgb(70, 64, 64);
+	position: relative;
+	padding: 15px;
+}
+.wrapper_btn button{
+	display: inline-block;
+	background-color: rgb(255, 251, 0);
+	cursor: pointer;
+	height: 30px;
+	width: 80px;
+}
